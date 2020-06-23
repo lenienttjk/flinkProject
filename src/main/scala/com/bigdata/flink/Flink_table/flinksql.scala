@@ -30,8 +30,8 @@ object flinksql {
 
 
 
-    // specify table program
-    val orders = tableEnv.scan("Orders") // schema (a, b, c, rowtime)
+    //  扫描表
+    val orders = tableEnv.scan("topScore") // schema (a, b, c, rowtime)
 
     val result = orders
       .groupBy('a)

@@ -29,6 +29,9 @@ object FlinkReadDataFromKafka {
     //  指定 topic ,kafka 配置
     val inputStream = env.addSource(new FlinkKafkaConsumer011[String]("sensor", new SimpleStringSchema(), properties))
 
+
+
+
     // 对数据不做复杂处理，输出，并设置并行度为1
     inputStream.print("stream1:").setParallelism(1)
     //    启动流，不停止

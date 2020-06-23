@@ -2,7 +2,6 @@ package com.bigdata.flink.Flink_WindowAPI
 
 import org.apache.flink.api.scala._
 import com.bigdata.flink.Tranform_Operator.SensorReading
-import org.apache.flink.api.common.state.StateTtlConfig.TimeCharacteristic
 import org.apache.flink.streaming.api.scala.StreamExecutionEnvironment
 
 /**

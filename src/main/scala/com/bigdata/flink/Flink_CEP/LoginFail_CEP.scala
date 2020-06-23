@@ -25,7 +25,11 @@ object LoginFail_CEP {
     val env = StreamExecutionEnvironment.getExecutionEnvironment
     // 显式地定义Time类型
     env.setStreamTimeCharacteristic(TimeCharacteristic.EventTime)
+    // configure watermark interval
+    env.getConfig.setAutoWatermarkInterval(1000L)
+    // 输入并行度
     env.setParallelism(1)
+    // 分布式快照间隔 时间
     env.enableCheckpointing(2000)
 
     // 1、读取事件数据

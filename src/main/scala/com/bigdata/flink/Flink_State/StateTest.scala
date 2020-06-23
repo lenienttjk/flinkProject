@@ -26,8 +26,15 @@ object StateTest {
     // 1、
     val env = StreamExecutionEnvironment.getExecutionEnvironment
     env.setParallelism(1)
+
     // 导入 import org.apache.flink.streaming.api.TimeCharacteristic
     env.setStreamTimeCharacteristic(TimeCharacteristic.EventTime)
+
+    // use event time for the application
+    env.setStreamTimeCharacteristic(TimeCharacteristic.EventTime)
+    // configure watermark interval
+    env.getConfig.setAutoWatermarkInterval(1000L)
+
 
     // nc -lk
     val inputStream = env.socketTextStream("mini1", 8888)

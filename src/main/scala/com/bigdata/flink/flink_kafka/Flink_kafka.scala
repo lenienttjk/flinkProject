@@ -53,7 +53,7 @@ object Flink_kafka {
 
 
 
-    // 打印数据
+    // 打印数据 或保存数据
     stream.print().setParallelism(1)
 
     // 启动

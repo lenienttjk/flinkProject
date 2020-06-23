@@ -1,0 +1,16 @@
+
+log日志
+IP地址               时间              获取方式get  访问url
+83.149.9.216 - - 17/05/2015:10:05:03 +0000 GET /presentations/logstash-monitorama-2013/images/kibana-search.png
+
+用户行为数据 48万行，去重统计3万多
+用户ID,商品ID,商品分类ID,浏览，
+543462,1715,1464116,pv,1511658000
+
+
+OrderLog.csv
+订单编号 订单状态，用户ID,时间戳
+34729,create,,1558430843
+34729,pay,sd34rf5o,1558430844
+
+
