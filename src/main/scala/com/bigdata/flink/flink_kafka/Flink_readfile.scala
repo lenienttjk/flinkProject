@@ -18,6 +18,11 @@ object Flink_readfile {
 
     val stream: DataStream[sensor] = streamData.map(t => {
       val arr = t.split(",")
+
+      val pw = arr(0).trim
+      val phone = arr(1)
+      val order_num = arr(2).toDouble
+
       sensor(arr(0).trim, arr(1), arr(2).toDouble)
     })
       .keyBy(0)

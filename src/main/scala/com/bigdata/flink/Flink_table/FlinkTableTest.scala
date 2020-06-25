@@ -48,13 +48,13 @@ object StreamSQLExample {
     env.setParallelism(1)
     // use blink planner in streaming mode
     val tEnv = if (planner == "blink") {
-
       val settings = EnvironmentSettings.newInstance()
         .useBlinkPlanner()
         .inStreamingMode()
         .build()
       StreamTableEnvironment.create(env, settings)
-    } else if (planner == "flink") { // use flink planner in streaming mode
+      // use flink planner in streaming mode
+    } else if (planner == "flink") {
       StreamTableEnvironment.create(env)
     } else {
       System.err.println("The planner is incorrect. Please run 'StreamSQLExample --planner <planner>', " +
