@@ -42,7 +42,7 @@ object MainDemo {
     // 设置 2次checkpoint 最小时间间隔
     env.getCheckpointConfig.setMinPauseBetweenCheckpoints(100)
 
-    // 开启外部 checkpoint, 手动取消job 是否需要保存 外部 checkpoint
+    // 开启外部 checkpoint, 手动取消job 是否需要保存外部 checkpoint
     env.getCheckpointConfig.
       enableExternalizedCheckpoints(ExternalizedCheckpointCleanup.DELETE_ON_CANCELLATION)
 
