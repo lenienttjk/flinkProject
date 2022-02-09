@@ -18,7 +18,7 @@
         <flink.version>1.13.2</flink.version>
         <redis.version>2.9.0</redis.version>
         <kafka.version>1.1.0</kafka.version>
-        <c3p0.version>0.9.5.2</c3p0.version>
+        <c3p0.version>0.9.5.4</c3p0.version>
 
         <flink.ververian>2.0.0</flink.ververian>
         <mysql.ververian>5.1.38</mysql.ververian>
