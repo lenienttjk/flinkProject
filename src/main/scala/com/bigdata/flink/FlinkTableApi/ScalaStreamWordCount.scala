@@ -22,7 +22,7 @@ object ScalaStreamWordCount {
 
     val tableEnv = StreamTableEnvironment.create(env)
 
-    val filePath = this.getClass.getClassLoader.getResource("word.txt").getPath
+    val filePath = this.getClass.getClassLoader.getResource("dataSource/word.txt").getPath
 
     tableEnv.connect(new FileSystem().path(filePath))
       .withFormat(new OldCsv().field("line", Types.STRING).lineDelimiter(" "))

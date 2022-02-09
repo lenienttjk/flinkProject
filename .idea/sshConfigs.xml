@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig authType="PASSWORD" host="mini1" id="093930fb-6524-443e-985f-628e84d29822" port="22" customName="mini1" nameFormat="CUSTOM">
+        <option name="customName" value="mini1" />
+      </sshConfig>
+      <sshConfig authType="PASSWORD" host="mini2" id="1bd45c36-0fb8-4d46-b305-abfb96f88712" port="22" customName="mini2" nameFormat="CUSTOM">
+        <option name="customName" value="mini2" />
+      </sshConfig>
+      <sshConfig authType="PASSWORD" host="mini3" id="7d8a5b65-4499-47fe-ae03-0b85ba81da53" port="22" customName="mini3" nameFormat="CUSTOM">
+        <option name="customName" value="mini3" />
+      </sshConfig>
+    </configs>
+  </component>
+</project>
