@@ -252,8 +252,8 @@
       <recent name="E:\Project\flinkProject\src\main\resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/resources" />
       <recent name="$PROJECT_DIR$/dataSource" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
       <recent name="E:\Project\flinkProject\dataSource" />
       <recent name="E:\Project\flinkProject\src\main\resources" />
       <recent name="E:\Project\flinkProject" />
@@ -433,7 +433,7 @@
       <workItem from="1598540857385" duration="1862000" />
       <workItem from="1599278698965" duration="86000" />
       <workItem from="1604242654108" duration="1638000" />
-      <workItem from="1644329750779" duration="8475000" />
+      <workItem from="1644329750779" duration="9372000" />
     </task>
     <task id="LOCAL-00001" summary="flink">
       <created>1585648873142</created>
@@ -477,7 +477,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644391981003</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="init">
+      <created>1644393340738</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1644393340738</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
